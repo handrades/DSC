@@ -1,20 +1,24 @@
-task default Build, Clean, Test
+task Deploy {
+
+    'Deploy'
+
+}
 
 task Test {
 
     Invoke-Pester "$PSScriptRoot\Tests\*.tests.ps1"
-    $testMessage
-
-}
-
-task Clean {
-
-    $cleanMessage
+    'Test'
 
 }
 
 task Build {
 
-    $BuildMessage
+    'Build'
+
+}
+
+task Clean {
+
+    'Clean'
 
 }
