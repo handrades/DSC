@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# DSC
+[![build status](https://gitlab.com/hektop/DSC/badges/master/build.svg)](https://gitlab.com/hektop/DSC/commits/master)
+[![coverage report](https://gitlab.com/hektop/DSC/badges/master/coverage.svg)](https://gitlab.com/hektop/DSC/commits/master)
 
-You can use the [editor on GitHub](https://github.com/hektop/DSC/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is my central repository for Windows Server labs using DSC and the powershell Lability module. These two tools will help us create labs faster and maintaining consistency on our lab configuration.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Learning resources
 
-### Markdown
+### DSC
+If you are new to DSC please refer to the MSDN webpage [here](https://msdn.microsoft.com/en-us/powershell/dsc/overview).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Lability
 
-```markdown
-Syntax highlighted code block
+If you are new to Lability please refer to the Powershell.org lability article [here](https://powershell.org/2016/04/13/do-you-need-to-build-virtual-machine-labs).
 
-# Header 1
-## Header 2
-### Header 3
+## Download Source Code
 
-- Bulleted
-- List
+The central repository currently contains several windows lab environments. Such as a Domain Controller, DHCP, DNS, etc. All labs are also listed as submodules. 
 
-1. Numbered
-2. List
+To download the released source code, clone this repository with the following git command:
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/hektop/DSC.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Questions, Comments, Concerns?
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hektop/DSC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you are running into any problems, have questions or find a bug with any lab setup, or would like a new lab, let me know on Twitter ([@h3kt0p](https://twitter.com/h3kt0p)) or by creating an issue on [GitHub](https://github.com/hektop/DSC/issues).
